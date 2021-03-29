@@ -1,24 +1,19 @@
 ## DevCamper API
-
 > Backend API for DevCamper application, which is a bootcamp directory website
 
 | Tool | Resources |
 | --- | --- |
-| `` | List all *new or modified* files |
-| `Install node.js ` | Hello |
-| `Postman ` | Hello |
-| `Mongodb  ` | Hello |
-| `Npm community` | Hello |
+| `Install node.js ` | [Download node ](https://nodejs.org/en/download/) |
+| `Postman ` | [Download Postman ](https://www.postman.com/downloads/) |
+| `Mongodb  ` |  [Download Mongodb](https://www.mongodb.com/try/download/compass) |
+| `Npm community` | [Exploration and npm packages](https://www.npmjs.com/) |
 
 
-
-| Usages-Tools | Resources |
+| Basic Commmands| Reference |
 | --- | --- |
-| `node seeder -d` |  Import files |
-| `node seeder -i` |  Delete files |
-| `git diff` | Hello |
-| `git diff` | Hello |
-| `git diff` | Hello |
+| `npm start` | Start server |
+| `node seeder -d` |  Import _data in .json  |
+| `node seeder -i` |  Delete _data in .json |
 
 
 The API is live at [protech-devcamper-api](https://protech-devcamper-api.herokuapp.com/)
