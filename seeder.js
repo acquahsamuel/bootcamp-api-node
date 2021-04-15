@@ -4,7 +4,7 @@ const colors = require('colors');
 const dotenv = require('dotenv');
 
 // Load env vars
-dotenv.config({ path: './config/config.env' });
+dotenv.config({path: './config/config.env'});
 
 // Load models
 const Bootcamp = require('./models/Bootcamp');
@@ -12,12 +12,12 @@ const Course = require('./models/Course');
 const User = require('./models/User');
 const Review = require('./models/Review');
 
-// Connect to DB                                                                                                                                                                                                                                                                                                                      
+// Connect to DB
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: false,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
 });
 
 // Read JSON files
