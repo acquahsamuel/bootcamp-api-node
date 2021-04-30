@@ -10,6 +10,7 @@ const advancedResults = (model, populate) => async (req, res, next) => {
   // Loop over removeFields and delete them from reqQuery
   removeFields.forEach(param => delete reqQuery[param]);
 
+  
   // Create query string
   let queryStr = JSON.stringify(reqQuery);
 
@@ -77,3 +78,5 @@ const advancedResults = (model, populate) => async (req, res, next) => {
 };
 
 module.exports = advancedResults;
+
+
