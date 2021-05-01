@@ -21,6 +21,7 @@ exports.getUser = asyncHandler(async (req, res, next) => {
   });
 });
 
+
 // @desc      Create user
 // @route     POST /api/v1/auth/users
 // @access    Private/Admin
