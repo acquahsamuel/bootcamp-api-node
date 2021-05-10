@@ -198,4 +198,3 @@ exports.bootcampPhotoUpload = asyncHandler(async (req, res, next) => {
     });
   });
 });
-
