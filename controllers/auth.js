@@ -49,6 +49,7 @@ exports.login = asyncHandler(async (req, res, next) => {
   sendTokenResponse(user, 200, res);
 });
 
+
 // @desc      Log user out / clear cookie
 // @route     GET /api/v1/auth/logout
 // @access    Private
